@@ -1,3 +1,6 @@
+@import './Footer/footer.scss';
+@import './Header/header.scss';
+
 html,
 body {
     overflow-x: hidden;
@@ -7,19 +10,6 @@ body {
     position: relative;
 }
 
-
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    font-size: 2rem;
-    padding: 1vw;
-    top: 8vh;
-    left: 16vw;
-    img{
-        margin-right: 0.5vw;
-    }
-   
-}
 
 .main-container{
     width: 100%;
@@ -184,37 +174,7 @@ body {
 }
 
 
-.footer-container{
-    display: flex;
-    width: 90vw;
-    margin: 3vh auto;
-    justify-content: space-between;
-    p{
-        color: #9B9B9B;
-    }
-    .footer-social{
-        img{
-            cursor: pointer;
-            padding: 1vw;
-        }
-        .social:hover{
-            border-radius: 50%;
-            font-size: 20vw;
-            background-color: #cdd9ed;
-        }
-        .chat-icon {
-            padding: 1vw;
-            border-radius: 50%;
-            margin-left: 1.5vw;
-            background-color: #1660EA;
-            opacity: 0.8;
-            &:hover{
-                opacity: 1 !important;
-            }
-        }
-    }
-   
-}
+
 
 @media screen and (max-width: 600px) {
     .header-container {
@@ -292,9 +252,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
     .footer-social {
-        img{
-
-        }
+        
             .chat-icon {
                 padding: 3vw;
                 border-radius: 50%;
