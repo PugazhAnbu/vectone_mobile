@@ -19,7 +19,7 @@ function Main() {
                     <h1>Unlimited business benefits with UnifiedRing</h1>
                     <p>Manage virtual teams with maximum efficiency.</p>
                 </div>
-
+                
                 <div className='grid-content'>
                     <div className='grid'>
                         <img src='Images/mask95.png' alt='staff.png' />
